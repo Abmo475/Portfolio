@@ -173,8 +173,8 @@ let projects=[
       "code": "https://github.com/Abmo475/fasilshop"
     }
     },{
-      "name": "Bootstrap Portfolio",
-      "desc": "Portfolio built using HTML, CSS, Bootstrap, SASS and JavaScript. Customized Bootstrap using SCSS.",
+      "name": "Bootstrap Company Website",
+      "desc": "CompanyPortfolio built using HTML, CSS, Bootstrap, SASS and JavaScript. Customized Bootstrap using SCSS.",
       "image": "kiya",
       "category": "basicweb",
       "links": {
@@ -182,17 +182,16 @@ let projects=[
         "code": "https://github.com/Abmo475/Kiya"
       }
     },
-  // },
-  // {
-  //   "name": "ResumeGen",
-  //   "desc": "ReactJS Basic Resume Generator which will generate customized resume in few minutes on your requirements.",
-  //   "image": "resumegen",
-  //   "category": "mern",
-  //   "links": {
-  //     "view": "https://resumegenx.netlify.app/",
-  //     "code": "https://github.com/jigar-sable/resumegen"
-  //   }
-  // },
+  {
+    "name": "E-Bidir Fin Tech",
+    "desc": "Financial loan approval system using mern app",
+    "image": "ebidir",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/Abmo475/E-bidir",
+      "code": "https://github.com/Abmo475/E-bidir"
+    }
+  },
   // {
   //   "name": "React-Projects",
   //   "desc": "Full-Stack project dashboard which is collection of projects built on the React library.",
