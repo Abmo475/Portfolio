@@ -99,13 +99,7 @@ function showProjects(projects) {
         $grid.isotope({ filter: filterValue });
     });
 }
-
-getProjects().then(data => {
-    showProjects(data);
-})
-// fetch projects end
-
-// Start of Tawk.to Live Chat
+ 
 var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 (function () {
     var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];

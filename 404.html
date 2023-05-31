@@ -10,101 +10,217 @@
     <!-- Favicon -->
     <link id='favicon' rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-png">
     <title>Got Lost! Page Not Found</title>
+    <script>
+        let t1 = gsap.timeline();
+    let t2 = gsap.timeline();
+    let t3 = gsap.timeline();
+    
+    t1.to(".cog1",
+    {
+      transformOrigin:"50% 50%",
+      rotation:"+=360",
+      repeat:-1,
+      ease:Linear.easeNone,
+      duration:8
+    });
+    
+    t2.to(".cog2",
+    {
+      transformOrigin:"50% 50%",
+      rotation:"-=360",
+      repeat:-1,
+      ease:Linear.easeNone,
+      duration:8
+    });
+    
+    t3.fromTo(".wrong-para",
+    {
+      opacity:0
+    },
+    {
+      opacity:1,
+      duration:1,
+      stagger:{
+        repeat:-1,
+        yoyo:true
+      }
+    });
+    </script>
+    <style type="text/css" rel="stylesheet">
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"  );
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  overflow:hidden;
+  background-color: #f4f6ff;
+}
+
+.container{
+  width:100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  left:6vmin;
+  text-align: center;
+}
+
+.cog-wheel1, .cog-wheel2{
+  transform:scale(0.7);
+}
+
+.cog1, .cog2{
+  width:40vmin;
+  height:40vmin;
+  border-radius:50%;
+  border:6vmin solid #f3c623;
+  position: relative;
+}
+
+
+.cog2{
+  border:6vmin solid #4f8a8b;
+}
+
+.top, .down, .left, .right, .left-top, .left-down, .right-top, .right-down{
+  width:10vmin;
+  height:10vmin;
+  background-color: #f3c623;
+  position: absolute;
+}
+
+.cog2 .top,.cog2  .down,.cog2  .left,.cog2  .right,.cog2  .left-top,.cog2  .left-down,.cog2  .right-top,.cog2  .right-down{
+  background-color: #4f8a8b;
+}
+
+.top{
+  top:-14vmin;
+  left:9vmin;
+}
+
+.down{
+  bottom:-14vmin;
+  left:9vmin;
+}
+
+.left{
+  left:-14vmin;
+  top:9vmin;
+}
+
+.right{
+  right:-14vmin;
+  top:9vmin;
+}
+
+.left-top{
+  transform:rotateZ(-45deg);
+  left:-8vmin;
+  top:-8vmin;
+}
+
+.left-down{
+  transform:rotateZ(45deg);
+  left:-8vmin;
+  top:25vmin;
+}
+
+.right-top{
+  transform:rotateZ(45deg);
+  right:-8vmin;
+  top:-8vmin;
+}
+
+.right-down{
+  transform:rotateZ(-45deg);
+  right:-8vmin;
+  top:25vmin;
+}
+
+.cog2{
+  position: relative;
+  left:-10.2vmin;
+  bottom:10vmin;
+}
+
+h1{
+  color:#142833;
+}
+
+.first-four{
+  position: relative;
+  left:6vmin;
+  font-size:40vmin;
+}
+
+.second-four{
+  position: relative;
+  right:18vmin;
+  z-index: -1;
+  font-size:40vmin;
+}
+
+.wrong-para{
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  bottom:15vmin;
+  padding:3vmin 12vmin 3vmin 3vmin;
+  font-weight:600;
+  color:#092532;
+}
+.gohome{
+    background:blue !important;
+    color: white;
+    border-radius: 2px;
+}
+    </style>
 </head>
 <body oncontextmenu="return false">
-
-<!-- navbar starts -->
-<header>
-        <a href="/" class="logo"><i class="fab fa-node-js"></i> Jigar</a>
-
-        <div id="menu" class="fas fa-bars"></div>
-        <nav class="navbar">
-            <ul>
-            <li><a href="/#home">Home</a></li>
-            <li><a href="/#about">About</a></li>
-            <li><a href="/#skills">Skills</a></li>
-            <li><a href="/#education">Education</a></li>
-            <li><a href="/#work">Work</a></li>
-            <li><a href="/#experience">Experience</a></li>
-            <li><a href="/#contact">Contact</a></li>
-            </ul>
-        </nav>
-</header>
-<!-- navbar ends -->
-
-<!-- 404 section start -->
-<section class="page_404">
-        <div class="container">
-          <div class="wrapper">
-            <h1 class="text-center ">404</h1>
-          </div>
-          
-          <div class="msg">
-          <h3>Looks like you're lost</h3>
-          <p>The page you are looking for is not available!</p>
-           
-          <div class="backbtn">
-            <a href="/" class="btn">
-                <i class="fas fa-arrow-left"></i>
-                <span>Back to Home</span>
-          </a>
-          </div>
-
+    <div class="container">
+        <h1 class="first-four">4</h1>
+        <div class="cog-wheel1">
+            <div class="cog1">
+              <div class="top"></div>
+              <div class="down"></div>
+              <div class="left-top"></div>
+              <div class="left-down"></div>
+              <div class="right-top"></div>
+              <div class="right-down"></div>
+              <div class="left"></div>
+              <div class="right"></div>
           </div>
         </div>
-</section>
-<!-- 404 section end -->
-
-<!-- footer section starts -->
-<section class="footer">
-
-  <div class="box-container">
-
-      <div class="box">
-          <h3>Jigar's Portfolio</h3>
-          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
-      </div>
-
-      <div class="box">
-          <h3>quick links</h3>
-          <a href="/#home"><i class="fas fa-chevron-circle-right"></i> home</a>
-          <a href="/#about"><i class="fas fa-chevron-circle-right"></i> about</a>
-          <a href="/#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
-          <a href="/#education"><i class="fas fa-chevron-circle-right"></i> education</a>
-          <a href="/#work"><i class="fas fa-chevron-circle-right"></i> work</a>
-          <a href="/#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
-      </div>
-
-      <div class="box">
-          <h3>contact info</h3>
-          <p> <i class="fas fa-phone"></i>+91 704-302-4736</p>
-          <p> <i class="fas fa-envelope"></i>jigarsable21@gmail.com</p>
-          <p> <i class="fas fa-map-marked-alt"></i>Pune, India-412206</p>
-          <div class="share">
-
-              <a href="https://www.linkedin.com/in/jigar-sable" class="fab fa-linkedin" target="_blank"></a>
-              <a href="https://github.com/jigar-sable" class="fab fa-github" target="_blank"></a>
-              <a href="mailto:jigarsable21@gmail.com" class="fas fa-envelope" target="_blank"></a>
-              <a href="https://twitter.com/jigar_sable" class="fab fa-twitter" target="_blank"></a>
-              <a href="https://t.me/lifecode5" class="fab fa-telegram-plane" target="_blank"></a>
+        <div class="cog-wheel2"> 
+          <div class="cog2">
+              <div class="top"></div>
+              <div class="down"></div>
+              <div class="left-top"></div>
+              <div class="left-down"></div>
+              <div class="right-top"></div>
+              <div class="right-down"></div>
+              <div class="left"></div>
+              <div class="right"></div>
           </div>
+        </div>
+       <h1 class="second-four">4</h1>
+        <p class="wrong-para">Uh Oh! Page not found! <br><a href="./index.html" type="button" class="gohome">Go Home</a> </p>
+        
       </div>
-  </div>
+ 
 
-  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/jigar-sable"> jigar sable</a></h1>
-
-</section>
-<!-- footer section ends -->
-
-<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
-
-<!-- jquery cdn -->
+ 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
-
-<script src="/assets/js/404.js"></script>
-
+ 
+ 
 
 </body>
 </html>
