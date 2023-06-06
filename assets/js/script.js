@@ -56,20 +56,7 @@ $(document).ready(function () {
 
 });
 
-// document.addEventListener('visibilitychange',
-//     function () {
-//         if (document.visibilityState === "visible") {
-//             document.title = "Portfolio | Jigar Sable";
-//             $("#favicon").attr("href", "assets/images/favicon.png");
-//         }
-//         else {
-//             document.title = "Come Back To Portfolio";
-//             $("#favicon").attr("href", "assets/images/favhand.png");
-//         }
-//     });
-
-
-// <!-- typed js effect starts -->
+ 
 var typed = new Typed(".typing-text", {
     strings: ["FullStack developer", "Backend Specialist", "web designer", "Computer Engineer", "Electrical Engineer", "Software Engineer"],
     loop: true,
@@ -99,7 +86,7 @@ function fadeOut() {
 window.onload = fadeOut;
 // pre loader end
 
-// disable developer mode
+// diMohammed developer mode
 document.onkeydown = function (e) {
     if (e.keyCode == 123) {
         return false;

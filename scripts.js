@@ -82,7 +82,6 @@ let skillHTML = "";
             "name": "Netlify",
             "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
         },
- 
         {
             "name": "jQuery",
             "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
@@ -139,8 +138,8 @@ let projects=[
   //   "image": "newsboxandroid",
   //   "category": "android",
   //   "links": {
-  //     "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-  //     "code": "https://github.com/jigar-sable/newsbox-android"
+  //     "view": "https://www.linkedin.com/posts/Abdilkadir -Mohammed_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+  //     "code": "https://github.com/Abdilkadir -Mohammed/newsbox-android"
   //   }
   // },
   // {
@@ -149,8 +148,8 @@ let projects=[
   //   "image": "weatherlyandroid",
   //   "category": "android",
   //   "links": {
-  //     "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-  //     "code": "https://github.com/jigar-sable/weatherly-android"
+  //     "view": "https://www.linkedin.com/posts/Abdilkadir -Mohammed_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+  //     "code": "https://github.com/Abdilkadir -Mohammed/weatherly-android"
   //   }
   // },
   // {
@@ -160,7 +159,7 @@ let projects=[
   //   "category": "mern",
   //   "links": {
   //     "view": "https://instagramernstack.herokuapp.com/",
-  //     "code": "https://github.com/jigar-sable/instagram-mern"
+  //     "code": "https://github.com/Abdilkadir -Mohammed/instagram-mern"
   //   }
   // },
   {
@@ -199,7 +198,7 @@ let projects=[
   //   "category": "mern",
   //   "links": {
   //     "view": "https://reactjsprojects.herokuapp.com/",
-  //     "code": "https://github.com/jigar-sable/React-Projects"
+  //     "code": "https://github.com/Abdilkadir -Mohammed/React-Projects"
   //   }
   // },
   // {
@@ -208,8 +207,8 @@ let projects=[
   //   "image": "flipkartphp",
   //   "category": "lamp",
   //   "links": {
-  //     "view": "https://github.com/jigar-sable/Flipkart-Clone-PHP",
-  //     "code": "https://github.com/jigar-sable/Flipkart-Clone-PHP"
+  //     "view": "https://github.com/Abdilkadir -Mohammed/Flipkart-Clone-PHP",
+  //     "code": "https://github.com/Abdilkadir -Mohammed/Flipkart-Clone-PHP"
   //   }
   // },
   // {
@@ -218,8 +217,8 @@ let projects=[
   //   "image": "jspro",
   //   "category": "basicweb",
   //   "links": {
-  //     "view": "https://jigar-sable.github.io/JavaScript-Projects",
-  //     "code": "https://github.com/jigar-sable/JavaScript-Projects"
+  //     "view": "https://Abdilkadir -Mohammed.github.io/JavaScript-Projects",
+  //     "code": "https://github.com/Abdilkadir -Mohammed/JavaScript-Projects"
   //   }
   // },
   // {
@@ -228,8 +227,8 @@ let projects=[
   //   "image": "webuiclones",
   //   "category": "mern",
   //   "links": {
-  //     "view": "https://github.com/jigar-sable/web-ui-clones",
-  //     "code": "https://github.com/jigar-sable/web-ui-clones"
+  //     "view": "https://github.com/Abdilkadir -Mohammed/web-ui-clones",
+  //     "code": "https://github.com/Abdilkadir -Mohammed/web-ui-clones"
   //   }
   // },
   // {
@@ -239,7 +238,7 @@ let projects=[
   //   "category": "mern",
   //   "links": {
   //     "view": "https://crypto-tracker-react-project.netlify.app/",
-  //     "code": "https://github.com/jigar-sable/React-Projects/tree/main/crypto-tracker"
+  //     "code": "https://github.com/Abdilkadir -Mohammed/React-Projects/tree/main/crypto-tracker"
   //   }
   // },
   // {
@@ -248,8 +247,8 @@ let projects=[
   //   "image": "hulu",
   //   "category": "mern",
   //   "links": {
-  //     "view": "https://hulu-clone-jigar-sable.vercel.app/",
-  //     "code": "https://github.com/jigar-sable/React-Projects/tree/main/hulu-clone"
+  //     "view": "https://hulu-clone-Abdilkadir -Mohammed.vercel.app/",
+  //     "code": "https://github.com/Abdilkadir -Mohammed/React-Projects/tree/main/hulu-clone"
   //   }
   // },
   // {
@@ -259,7 +258,7 @@ let projects=[
   //   "category": "basicweb",
   //   "links": {
   //     "view": "#",
-  //     "code": "https://github.com/jigar-sable/Portfolio-Website"
+  //     "code": "https://github.com/Abdilkadir -Mohammed/Portfolio-Website"
   //   }
   // },
   // {
@@ -269,7 +268,7 @@ let projects=[
   //   "category": "basicweb",
   //   "links": {
   //     "view": "https://composey.netlify.app/",
-  //     "code": "https://github.com/jigar-sable/LGMVIP-WebDev"
+  //     "code": "https://github.com/Abdilkadir -Mohammed/LGMVIP-WebDev"
   //   }
   // },
   // {
@@ -278,8 +277,8 @@ let projects=[
   //   "image": "webviewapp",
   //   "category": "android",
   //   "links": {
-  //     "view": "https://github.com/jigar-sable/Android-Webview#webapp--android-webview-app",
-  //     "code": "https://github.com/jigar-sable/Android-Webview"
+  //     "view": "https://github.com/Abdilkadir -Mohammed/Android-Webview#webapp--android-webview-app",
+  //     "code": "https://github.com/Abdilkadir -Mohammed/Android-Webview"
   //   }
   // },
   // {
@@ -289,7 +288,7 @@ let projects=[
   //   "category": "lamp",
   //   "links": {
   //     "view": "https://tsfbank.rf.gd",
-  //     "code": "https://github.com/jigar-sable/TSF-Bank"
+  //     "code": "https://github.com/Abdilkadir -Mohammed/TSF-Bank"
   //   }
   // },
  
@@ -329,8 +328,8 @@ let projects=[
   //   "image": "webchat",
   //   "category": "mern",
   //   "links": {
-  //     "view": "https://github.com/jigar-sable/WebChat#webchat",
-  //     "code": "https://github.com/jigar-sable/WebChat"
+  //     "view": "https://github.com/Abdilkadir -Mohammed/WebChat#webchat",
+  //     "code": "https://github.com/Abdilkadir -Mohammed/WebChat"
   //   }
   // },
   // {
@@ -339,8 +338,8 @@ let projects=[
   //   "image": "basicbank",
   //   "category": "android",
   //   "links": {
-  //     "view": "https://github.com/jigar-sable/Basic_Banking_App#basic-banking-app",
-  //     "code": "https://github.com/jigar-sable/Basic_Banking_App"
+  //     "view": "https://github.com/Abdilkadir -Mohammed/Basic_Banking_App#basic-banking-app",
+  //     "code": "https://github.com/Abdilkadir -Mohammed/Basic_Banking_App"
   //   }
   // },
   // {
@@ -349,8 +348,8 @@ let projects=[
   //   "image": "issuetrack",
   //   "category": "basicweb",
   //   "links": {
-  //     "view": "https://jigar-sable.github.io/JavaScript-Projects/projects/issuetracker",
-  //     "code": "https://github.com/jigar-sable/JavaScript-Projects/tree/main/projects/issuetracker"
+  //     "view": "https://Abdilkadir -Mohammed.github.io/JavaScript-Projects/projects/issuetracker",
+  //     "code": "https://github.com/Abdilkadir -Mohammed/JavaScript-Projects/tree/main/projects/issuetracker"
   //   }
   // },
   // {
@@ -359,8 +358,8 @@ let projects=[
   //   "image": "phppblform",
   //   "category": "lamp",
   //   "links": {
-  //     "view": "https://github.com/jigar-sable/PHP-Projects/tree/main/pblform#pbl-portal",
-  //     "code": "https://github.com/jigar-sable/PHP-Projects/tree/main/pblform"
+  //     "view": "https://github.com/Abdilkadir -Mohammed/PHP-Projects/tree/main/pblform#pbl-portal",
+  //     "code": "https://github.com/Abdilkadir -Mohammed/PHP-Projects/tree/main/pblform"
   //   }
   // },
   // {
@@ -369,8 +368,8 @@ let projects=[
   //   "image": "linklist",
   //   "category": "basicweb",
   //   "links": {
-  //     "view": "https://jigar-sable.github.io/LinkList",
-  //     "code": "https://github.com/jigar-sable/LinkList"
+  //     "view": "https://Abdilkadir -Mohammed.github.io/LinkList",
+  //     "code": "https://github.com/Abdilkadir -Mohammed/LinkList"
   //   }
   // },
   // {
@@ -379,8 +378,8 @@ let projects=[
   //   "image": "saas",
   //   "category": "basicweb",
   //   "links": {
-  //     "view": "https://jigar-sable.github.io/JavaScript-Projects/api-projects/saas-jobs",
-  //     "code": "https://github.com/jigar-sable/JavaScript-Projects/tree/main/api-projects/saas-jobs"
+  //     "view": "https://Abdilkadir -Mohammed.github.io/JavaScript-Projects/api-projects/saas-jobs",
+  //     "code": "https://github.com/Abdilkadir -Mohammed/JavaScript-Projects/tree/main/api-projects/saas-jobs"
   //   }
   // },
   // {
